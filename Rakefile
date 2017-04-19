@@ -12,3 +12,5 @@ namespace :jcb do
     sh "rails server -b $IP -p $PORT"
   end
 end
+
+# pg_ctlcluster 9.5 main status
