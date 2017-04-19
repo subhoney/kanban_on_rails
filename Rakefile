@@ -13,4 +13,4 @@ namespace :jcb do
   end
 end
 
-# pg_ctlcluster 9.5 main status
+# pg_ctlcluster 9.3 main start
