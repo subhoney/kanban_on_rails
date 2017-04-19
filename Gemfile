@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.2.4'
-ruby '2.2.2'
+ruby '2.3.0'
 
 gem 'active_model_serializers', '~> 0.8.0'
 gem 'acts_as_list'

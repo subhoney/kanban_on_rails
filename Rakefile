@@ -4,3 +4,11 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+
+namespace :jcb do
+  desc "Run rails server"
+  task :run do
+    sh "rails server -b $IP -p $PORT"
+  end
+end
